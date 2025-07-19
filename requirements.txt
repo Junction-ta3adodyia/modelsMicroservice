@@ -1,0 +1,6 @@
+tensorflow
+Pickle
+Pillow
+uvicorn
+fastapi
+pydantic
