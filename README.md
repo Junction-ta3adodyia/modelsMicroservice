@@ -8,15 +8,13 @@ This project provides a FastAPI-based microservice for:
 
 ```
 app/
-  api/         # (for API routers, if you want to split endpoints)
-  core/        # (for core logic/config)
-  models/      # (for ML models)
+  services/
+
 main.py        # FastAPI entrypoint
 requirements.txt
 Dockerfile
 .gitignore
 .dockerignore
-notebooks/     # (for experiments, not used in production)
 ```
 
 ## Endpoints
